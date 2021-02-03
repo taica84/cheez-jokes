@@ -1,0 +1,8 @@
+.JokeList-footer {
+    font-family: "Rubik", sans-serif;
+    display: flex;
+    justify-content: center;
+    color: darkgreen;
+    position: absolute;
+    bottom: 0;
+  }

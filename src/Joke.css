@@ -32,6 +32,13 @@
   box-shadow: 0 10px 38px rgba(0, 0, 0, 0.2), 0 10px 12px rgba(0, 0, 0, 0.1);
 }
 
+.fa-arrow-up {
+  color: chartreuse;
+}
+.fa-arrow-down {
+  color: crimson;
+}
+
 .fa-arrow-up,
 .fa-arrow-down {
   font-size: 1.5em;
@@ -64,6 +71,11 @@
   animation-timing-function: ease-out;
   color: #f44336;
 }
+
+
+
+
+
 @keyframes move-down {
   0%,
   50%,
@@ -89,6 +101,29 @@
   animation-timing-function: ease-in-out;
   animation-delay: 0s;
 }
+
+
+@media all and (max-width:420px) {
+  .Joke-text {
+    font-size: 0.7rem;
+  }
+  .Joke-smiley {
+    font-size: 1rem;
+  }
+  .Joke-votes {
+    width: 25px;
+    height: 25px;
+    line-height: 25px;
+    font-size: 1rem; 
+  }
+  .fa-arrow-up,
+  .fa-arrow-down {
+    font-size: 0.7em;
+}
+}
+
+
+
 
 @keyframes spin {
   0% {

@@ -45,9 +45,9 @@ class Joke extends Component {
             {this.props.votes}
           </span>
           <i className='fas fa-arrow-down' onClick={this.props.downvote} />
-        </div>
-        <div className='Joke-text'>{this.props.text}</div>
-        <div className='Joke-smiley'>
+         </div>
+         <div className='Joke-text'>{this.props.text}</div>
+         <div className='Joke-smiley'>
           <i className={this.getEmoji()} />
         </div>
       </div>

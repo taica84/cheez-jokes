@@ -106,6 +106,19 @@
   box-shadow: 0 15px 30px rgba(0, 0, 0, 0.25);
 }
 
+@media all and (max-width:420px) {
+  .JokeList-title {
+    font-size: 0.8rem;
+  }
+  .JokeList-getmore {
+    font-size: 0.5rem;
+    padding: 0.5rem ;
+  }
+  .JokeList-newjokes{
+    font-size: 0.5rem;
+    padding: 0.5rem ;
+  }
+}
 
 
 
